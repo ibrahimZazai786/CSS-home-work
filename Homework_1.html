@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Homework</title>
+</head>
+
+<body  class="body" bgcolor="pink" >
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
+	<div class="container">
+		<h1 align="center">Student Registeration Form</h1>
+	<hr color="white" width="95%">
+			<form action="*" method="post" class="form">
+		<p class="L1">Firstname:<br>
+         <input class="int" type="text" name="username"  maxlength="30" placeholder="Firstname" required="" ></input>
+		</p>
+		
+
+
+		<p class="L1">Middlename: <br>
+			<input class="int" type="text" name="Middlename"  placeholder="Middlename"  ></p>
+			<p class="L1">Lastname:<br>
+         <input  class="int" type="text" name="Lastname"  maxlength="30" placeholder="Lastname" required="text"></input><br>
+		
+		<br>
+
+
+		<p class="L1">Course:
+			<SELECT   >course
+				<option selected disabled value="">Course</option>
+			<option value="DATABASE">DATABASE</option>
+			<option value="PHP">PHP</option>
+			<option value="MATH">MATH</option>
+			<option value="DATA ALGORITHM">DATA ALGORITHM</option>
+		</SELECT>
+	    </p>
+
+
+		<p class="L1">Gender:<br>
+			<input type="radio" name="Female" value="Female" multiple="3" checked="">Male
+			<input type="radio" name="Female" value="Female">Female
+			<input type="radio" name="Female" value="Female">Other
+		</p>
+		
+
+        <p class="L1">Phone:<br>
+		<input  class="int"   size="100%" value="+93"  ><br><br>
+		<input  class="int" type="tel"  size="100%" maxlength="14" required="" pattern="07[0-9]{8}"  placeholder="Enter your phone number" title="enter valid number" >
+		</p>
+		
+
+
+		<p class="L1">Current Address:<br>
+			<textarea class="add" placeholder="current address"  required="text" ></textarea>
+		</p>
+
+		 
+		 <p class="L2"><b> Email:</b><br>
+         <input class="int" type="Email" name="Enter Email" size="100%" placeholder="Enter your Email">
+		 </p>
+		 
+
+		 <p class="L2"><b> Password:</b><br>
+         <input class="int" type="Password" name="Enter Email" size="100%" placeholder="Password" required="" maxlength="15" pattern="[A-z]{5}[^A-z0-9]{1,}[0-9]{2,}" >
+		 </p>
+		 
+
+
+		 <p class="L2"><b> Re-Type Password:</b><br>
+         <input class="int" type="Password" name="Enter Email" size="100%" placeholder="Enter your Password again" pattern="[A-z]{5}[^A-z0-9]{1,}[0-9]{2,}" >
+		 </p>
+		 <br>
+		 <br>
+		 <button class="button" type="submit" value="Register"> Register</button>
+        </form>   
+        </div>
+        
+
+</body>
+</html>
